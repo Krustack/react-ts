@@ -37,14 +37,18 @@ function App() {
   }
   return (
     <>
+
       <Container as="header">
         <h3>what do you want todo ?</h3>
       </Container>
+
       <Container as="main">
+
         <Form onSubmit={saveListHandler}>
           <Input id="list" label="addlist" type="text" ref={inputList} />
           <Button buttonStyle="submit">addlist</Button>
         </Form>
+
         <Container>
           <h3 className="title">TODO LIST :</h3>
           {lists.length === 0 && (
@@ -64,7 +68,9 @@ function App() {
             })}
           </List>
         </Container>
+
       </Container>
+
       <Container as="footer">
         Submitted by : Mr.Wisanu Phornjariyatham
       </Container>
