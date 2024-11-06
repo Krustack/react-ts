@@ -10,7 +10,7 @@
     "preview": "vite preview",
     "deploy": "gh-pages -d build"
   },
-  "homepage": "https://krustack.github.io/react-ts",
+  "homepage": "https://krustack.github.io/react-ts/",
   "dependencies": {
     "react": "^18.2.0",
     "react-dom": "^18.2.0"
