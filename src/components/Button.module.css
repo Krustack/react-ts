@@ -1,0 +1,17 @@
+.btn {
+  padding: 8px 8px;
+  border-radius: 4px;
+  text-transform: uppercase;
+  font-weight: bold;
+  border: 0;
+}
+.submit {
+  background-color: #154066;
+  color: #bbbbbb;
+}
+.outline {
+  background-color: #00000000;
+  color: #bae36a;
+  border: 3px solid #bae36a;
+  padding: 8px 8px;
+}
