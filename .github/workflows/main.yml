@@ -28,5 +28,5 @@ jobs:
         if: success()
         uses: peaceiris/actions-gh-pages@v4
         with:
-          github_token: ${{ secrets.MY_TOKEN }}
+          personal_token: ${{ secrets.ACTIONS_DEPLOY_KEY }}
           publish_dir: ./dist
