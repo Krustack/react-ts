@@ -29,4 +29,4 @@ jobs:
         uses: peaceiris/actions-gh-pages@v4
         with:
           personal_token: ${{ secrets.PUB_TOKEN }}
-          publish_dir: ./public
+          publish_branch: gh-pages
